@@ -1,0 +1,138 @@
+/*页面顶部*/
+body {
+  background: #ECECEC;
+}
+nav {
+  height: 60px;
+  margin: 20px 0;
+}
+nav .top {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+nav .top .top_right li {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 42px;
+}
+nav .top .top_right li input,
+nav .top .top_right li select {
+  height: 39px;
+  float: left;
+  border-bottom: 1px solid #0094E8;
+}
+nav .top .top_right li input {
+  width: 300px;
+  text-indent: 5px;
+}
+nav .top .top_right li select {
+  background-color: #F2FBFF;
+}
+nav .top .top_right li button {
+  height: 39px;
+  float: left;
+  width: 80px;
+  background-color: #0094E8;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+nav .top .top_right li:nth-child(1) {
+  border: 2px solid #0094E8;
+}
+/*更多景区*/
+.special {
+  margin-top: 0px;
+}
+.special .special_top3 {
+  width: 90%;
+  margin: 50px auto;
+  padding: 0 1% 0 1%;
+}
+.special .special_top3 h3 {
+  margin: 1% 0 15px 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*景区价格*/
+.special .back {
+  position: relative;
+}
+.special .back > a {
+  position: absolute;
+  top: -50px;
+  right: 90px;
+  width: 105px;
+  height: 34px;
+  border: 1px solid #e2dada;
+  line-height: 34px;
+  text-align: center;
+  color: #838281;
+  background-color: #EDEDED;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.special .back > a span {
+  color: #838281;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.special .special_top2 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 10px;
+  background: #ECECEC;
+}
+.special .special_top2 .swiper-container {
+  flex: 1;
+  border-radius: 20px;
+}
+.special .special_top2 .swiper-container img {
+  width: 100%;
+}
+.special .special_top2 .order_right {
+  flex: 1;
+  padding: 1%;
+}
+.special .special_top2 .order_right .price_top {
+  margin-left: 50px;
+}
+.special .special_top2 .order_right .price_top h3,
+.special .special_top2 .order_right .price_top h4 {
+  margin-top: 2%;
+}
+.special .special_top2 .order_right .price_top em,
+.special .special_top2 .order_right .price_top del {
+  color: #929190;
+}
+.special .special_top2 .order_right .price_top > span,
+.special .special_top2 .order_right .price_top .yell {
+  color: #F36B1E;
+  font-size: 35px;
+}
+.special .special_top2 .order_right .price_top .yuan {
+  margin: 5% 0;
+}
+.special .special_top2 .order_right .price_top .weixin {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.special .special_top2 .order_right .price_top #ewm {
+  width: 130px;
+}
+.special .lines {
+  background: #ccc;
+  margin-top: 40px;
+  height: 2px;
+}
+.special .picc {
+  margin: 30px auto;
+  height: 500px;
+  padding: 0 30px;
+}

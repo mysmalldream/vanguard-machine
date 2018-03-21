@@ -1,0 +1,107 @@
+aside .special .special_top4 {
+  width: 100%;
+  border-radius: 6px;
+  padding: 1% 4% 0 4%;
+  background-color: #fff;
+}
+aside .special .special_top4 i,
+aside .special .special_top4 span {
+  color: #5DBAFC;
+  font-size: 20px;
+}
+aside .special .special_top4 .excuse {
+  line-height: 40px;
+  border-top: 1px solid #5DBAFC;
+  margin-top: 5px;
+}
+aside .special .special_top4 .excuse li {
+  padding: 0 2%;
+  line-height: 40px;
+  color: rgba(126, 113, 113, 0.678);
+}
+aside .special .special_top4 .flow {
+  display: flex;
+  border-top: 1px solid #5DBAFC;
+  margin-top: 5px;
+}
+aside .special .special_top4 .flow li {
+  flex: 1;
+  color: rgba(126, 113, 113, 0.678);
+}
+aside .special .special_top4 .flow li img {
+  margin: 15px auto;
+  height: 200px;
+}
+aside .special .special_top4 .views {
+  border-top: 1px solid #5DBAFC;
+  margin-top: 5px;
+}
+aside .special .special_top4 .views li {
+  padding: 0 2%;
+  line-height: 40px;
+  color: rgba(61, 59, 59, 0.678);
+}
+aside .special .special_top4 .views li b {
+  color: #000;
+}
+.pics {
+  padding: 0px 60px 0px 60px;
+  margin-top: 212px;
+  overflow-x: scroll;
+}
+.pics img {
+  width: 43%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #888888;
+  margin: 20px 10px;
+}
+footer .foot {
+  padding: 0px 30px 30px 30px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #ECECEC;
+  position: fixed;
+  z-index: 1000;
+}
+footer .foot .back > a {
+  width: 105px;
+  height: 37px;
+  border: 1px solid #e2dada;
+  line-height: 37px;
+  text-align: center;
+  color: #838281;
+  background-color: #EDEDED;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 70px;
+}
+footer .foot .back > a span {
+  color: #838281;
+  font-weight: bold;
+  margin-right: 10px;
+}
+footer .foot ul {
+  overflow-y: auto;
+}
+footer .foot ul li {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  background-color: #CC1244;
+  border-radius: 10px;
+}
+footer .foot ul li a {
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+}
+footer .foot ul li a .h3 {
+  color: #fff;
+  font-size: 23px;
+}
+footer .foot ul li a p {
+  color: #F0BB00;
+  font-size: 18px;
+  font-weight: 900;
+}

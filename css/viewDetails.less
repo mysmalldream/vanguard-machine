@@ -1,0 +1,283 @@
+    // 景区产品支付页
+    header {
+        // height: 300px;
+        background-color: #ccc;
+        .swiper-container {
+            // height: 100%;
+            text-align: center; // line-height: 100%;
+            // margin-top: 5px;
+            .swiper-slide {
+                position: relative;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+                p {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    color: #fff;
+                    width: 100%;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: left;
+                    text-indent: 10px;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    aside {
+        .special {
+            .special_top4 {
+                width: 100%; // margin: 0 auto; // border: 2px dashed @color3;
+                border-radius: 6px;
+                padding: 4% 4% 0 4%;
+                background-color: #fff;
+                i,
+                span {
+                    color: #5DBAFC;
+                    font-size: 20px;
+                }
+                .excuse {
+                    line-height: 40px;
+                    border-top: 1px solid #5DBAFC;
+                    margin-top: 5px;
+                    li {
+                        padding: 0 2%;
+                        line-height: 40px;
+                        color: rgba(126, 113, 113, 0.678);
+                    }
+                }
+                .flow {
+                    display: flex;
+                    border-top: 1px solid #5DBAFC;
+                    margin-top: 5px;
+                    li {
+                        flex: 1;
+                        color: rgba(126, 113, 113, 0.678);
+                        .flow_top {
+                            width: 60px;
+                            height: 60px;
+                            border: 2px solid #5DBAFC;
+                            border-radius: 50%;
+                            text-align: center;
+                            line-height: 55px;
+                            margin: 10px auto;
+                            text-align: center;
+                            i {
+                                color: red;
+                                font-size: 28px;
+                            }
+                        }
+                        .product {
+                            text-align: center;
+                            margin-top: 5%;
+                        }
+                        p {
+                            margin: 5% 10% 0 10%;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .views {
+                    border-top: 1px solid #5DBAFC;
+                    margin-top: 5px;
+                    li {
+                        padding: 0 2%;
+                        line-height: 40px;
+                        color: rgba(126, 113, 113, 0.678);
+                    }
+                }
+            }
+        }
+    } // 主体图片
+    .pics {
+        padding: 60px 60px 60px 60px;
+        display: flex;
+        margin: 0 auto;
+        img {
+            // width: 100%;
+            flex: 1;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #888888;
+        }
+        img:nth-child(2) {
+            margin: 0 10px;
+        }
+    } // 底部
+    footer {
+        border: 1px solid red;
+        .foot {
+            padding: 30px;
+            height: 350px;
+            width: 100%; // position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #ECECEC;
+            display: flex;
+            .foot_left {
+                flex: 1; // border: 1px solid red;
+                padding: 0 20px;
+                h2 {
+                    font-size: 25px;
+                }
+                .telephone {
+                    color: red;
+                    margin-top: 15px;
+                }
+                input {
+                    border: 2px solid #EFBDAC;
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 40px;
+                    font-size: 20px;
+                    text-indent: 10px;
+                    margin: 20px 0 0px 0;
+                }
+            }
+            .foot_right {
+                flex: 1; // border: 1px solid red;
+                ul {
+                    padding: 0 20px;
+                    li:nth-child(1) {
+                        a {
+                            background-color: #F1BA00;
+                            margin-left: 340px;
+                            border-radius: 10px;
+                            width: 120px;
+                            display: inline-block;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            color: #FFFED9;
+                            span {
+                                background: #fff;
+                                display: inline-block;
+                                height: 25px;
+                                line-height: 25px;
+                                width: 25px;
+                                border-radius: 50%;
+                                color: #000;
+                            }
+                        }
+                    }
+                    li:nth-child(2) {
+                        background-color: #fff;
+                        margin-top: 10px;
+                        width: 100%;
+                        padding: 5px 0;
+                        border-radius: 10px;
+                        .nums {
+                            margin-left: 25%;
+                            height: 40px;
+                            line-height: 40px;
+                            position: relative;
+                            span {
+                                font-size: 20px;
+                                color: rgb(109, 106, 103);
+                                margin-right: 30px;
+                            }
+                            i {
+                                position: absolute;
+                                top: 8px;
+                                bottom: 0px;
+                            }
+                            .hides {
+                                display: none;
+                            }
+                        }
+                    }
+                    li:nth-child(3) {
+                        background-color: #fff;
+                        margin-top: 20px;
+                        padding: 5px 0;
+                        border-radius: 10px;
+                        .money {
+                            margin-left: 25%;
+                            height: 40px;
+                            line-height: 40px;
+                            color: #C91544;
+                            span {
+                                font-size: 20px;
+                                color: rgb(109, 106, 103);
+                                margin-right: 30px;
+                            }
+                            i {
+                                color: #C91544;
+                                font-size: 25px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    li:nth-child(4) {
+                        margin-top: 20px;
+                        .zhifu {
+                            input {
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                    li:nth-child(5) {
+                        margin-top: 20px;
+                        .tips {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    } // 支付弹窗
+    .mask {
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10000000000;
+        .mask1 {
+            height: 30%;
+            width: 40%;
+            margin: 40% auto;
+            background-color: #fff;
+            border-radius: 20px;
+            img {
+                width: 60%;
+                height: 60%;
+                margin: 0% auto;
+            }
+            h1 {
+                text-align: center;
+                font-size: 40px;
+                margin-top: 20px;
+            }
+            p {
+                button {
+                    margin: 10% 10% 10% 30%;
+                    width: 35%;
+                }
+            }
+            .quxiao {
+                background-color: #007ACC;
+                color: #fff;
+                width: 150px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+        #zhifu1,
+        #zhifu2 {
+            position: absolute;
+            top: -38px;
+            left: 0px;
+            z-index: -10;
+        }
+    }

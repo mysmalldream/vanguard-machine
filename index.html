@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>景区首页</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./lib/loading/jquery.shCircleLoader.css">
+  <style type="text/css">
+    h2 {
+      margin: 5px;
+      padding: 0
+    }
+
+    div[id] {
+      width: 100px;
+      height: 100px;
+      margin: 10px auto;
+    }
+
+    span {
+      font-family: monospace;
+      font-size: 14px
+    }
+
+    pre {
+      text-align: left;
+      margin: 0 auto;
+      border: 1px solid #888;
+      padding: 3px;
+      width: 400px;
+      background: #eee
+    }
+
+    .myns>div {
+      box-shadow: 0 0 6px black, inset 0 0 6px black;
+    }
+  </style>
+</head>
+
+<body>
+  <aside>
+    <ul class="viewsLists">
+      <div id="loader"></div>
+      <!-- <li>
+        <div class="left">
+          <img src="./imgs/111.jpg" alt="">
+        </div>
+        <div class="right">
+          <h3>城墙城墙城城墙城墙城墙墙</h3>
+          <div class="tips">
+            <ul class=" clearfix ">
+              <li class="fl">哈哈哈哈哈哈</li>
+              <li class="fl">哈哈哈哈</li>
+              <li class="fl">哈哈哈哈</li>
+              <li class="fl">哈哈哈哈</li>
+            </ul>
+          </div>
+          <hr>
+          <p>
+            <span>我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字</span>
+          </p>
+          <div class="go clearfix">
+            <div class="prices">
+              <b style="color: #DB214C;">¥</b>
+              <span class="lows">50</span>
+              <span>起</span>
+            </div>
+            <div class="details fr">
+              <a href="">立 即 购 买</a>
+            </div>
+          </div>
+        </div>
+      </li> -->
+      
+    </ul>
+  </aside>
+</body>
+<script src="./lib/jquery-2.1.4/jquery.min.js"></script>
+<script src="./js/commonapi.js"></script>
+<script src="./js/index.js"></script>
+<script src="./lib/loading/jquery.shCircleLoader.js" type="text/javascript"></script>
+<script>
+  $('#loader').shCircleLoader({
+    color: "red",
+    dots: 24,
+    dotsRadius: 13,
+    keyframes:
+      "0%   {background: red;    {prefix}transform: scale(1)}\
+        20%  {background: orange; {prefix}transform: scale(.4)}\
+        40%  {background: red;    {prefix}transform: scale(0)}\
+        50%  {background: red;    {prefix}transform: scale(1)}\
+        70%  {background: orange; {prefix}transform: scale(.4)}\
+        90%  {background: red;    {prefix}transform: scale(0)}\
+        100% {background: red;    {prefix}transform: scale(1)}"
+  });
+</script>
+
+</html>
